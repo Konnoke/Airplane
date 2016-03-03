@@ -13,8 +13,8 @@ package airplane;
 public class AirplaneSeating {
  
     public static void main(String[] args){
-        
-        
+        Airplane plane1 = new Airplane();
+        plane1.run();
         
     }
     

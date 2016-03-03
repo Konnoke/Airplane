@@ -11,4 +11,47 @@ package airplane;
  */
 public class Passenger {
     
+    public String passengerName;
+    public String groupName;
+    public String seat;
+    public boolean exists;
+    
+    public Passenger(){
+        exists = true;
+    }
+    
+    public void deletePassenger(){
+        exists = false;
+    }
+    
+    public String getName() {
+	return passengerName;
+    }
+
+    public String getGroupName() {
+	return groupName;
+    }
+
+    public String getSeat(){
+	return seat;
+    }
+	
+	
+    public void setName(String name) {
+	this.passengerName = name;
+    }
+    public void setGroupName(String groupName) {
+    	this.groupName = groupName;
+    }
+    public void setSeat(String seating){
+    	this.seat = seating;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 }
