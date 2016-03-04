@@ -16,6 +16,16 @@ public class Seat {
     final char isFree = '-';
     char seatSymbol;
     char seatPosition;
+    Passenger human = new Passenger();
+    
+    public void setPassengerName(String name){
+        human.setName(name);
+        
+    }
+    
+    public String getPassengerName(){
+        return human.getName();        
+    }
     
     public Seat(boolean free){
         seatFree = free;
